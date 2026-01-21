@@ -109,6 +109,9 @@ jobs:
           -
             version: '8.4'
             composer: --prefer-stable
+          -
+            version: '8.5'
+            composer: --prefer-stable
     steps:
       -
         name: Download sources
